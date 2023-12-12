@@ -1,0 +1,64 @@
+.big-box{
+    background-color: rgba(213, 228, 223, 0);
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .topnav{
+    background-color: rgba(195, 240, 183, 0.735);
+    width: 100%;
+    height: 8%;
+  }
+  
+  .barra_sup{  
+    display: flex;
+    flex-direction: row;
+  }
+
+  .elementos{
+    display: flex;
+    flex-direction: row;
+    height: 90%;
+  } 
+  
+  .categoria{
+    height: 100%;
+    width: 15%;
+    background-color: rgba(205, 199, 191, 0.62);
+    display: flex;
+    align-items: center;
+  }
+  
+  .lateral{
+    margin-top: 10px;
+    padding-top: 10px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .lateral:hover{
+    margin-top: 10px;
+    padding-top: 10px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.601);
+  }
+  
+
+  .resultados{
+    min-height: 100%;
+    height: fit-content;
+    width: 85%;
+    background-color: rgb(244, 244, 244);
+    }
+  
+  .btn_salir{
+    width: max-content;
+    background-color: rgba(255, 0, 0, 0.408);
+    margin-bottom: 5px;
+  }
+  
+  .btn_salir:hover{
+    width: max-content;
+    background-color: rgb(255, 0, 0);
+    color: white;
+  }
