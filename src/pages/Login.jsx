@@ -54,7 +54,7 @@ export const Login = () => {
     <div className="App">
       <form onSubmit={handleSubmit}>
         <div className="box">
-          <h1>CUCERVICES</h1>
+          <h1>BIENVENIDO A CUCERVICES</h1>
           <div className="params">
             <label>Usuario</label>
             <input
