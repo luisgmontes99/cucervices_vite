@@ -22,6 +22,7 @@
 >>>>>>> c887ab35c482362c299de85251c794aa09d81bdb
   },
   "devDependencies": {
+    "@iconify/react": "^4.1.1",
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
     "@vitejs/plugin-react": "^4.2.1",

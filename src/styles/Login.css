@@ -1,4 +1,4 @@
-html{
+html {
   height: 100%;
   width: 100%;
   display: flex;
@@ -6,71 +6,102 @@ html{
   align-items: center;
 }
 
-.box{
-  background-color: rgb(255, 255, 255);
-  width: auto;
-  height: auto;
-  margin: 10px;  
-  padding: 35px;
+@keyframes deslizar_der {
+  from {
+    transform: translateX(600px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+}
+
+#box {
+  background-color: #01021C;
+  width: 60%;
+  height: 500px;
+  padding: 15px;
   border-radius: 30px;
-  box-shadow:10px 10px 5px black ;
+  box-shadow: 0 0 15px 15px white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  animation: deslizar_der 1s;
 }
 
-h1{
-  color: blue;
-}
-
-div{
+#frase {
+  width: 50%;
+  height: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /*border: solid 1px black;*/
 }
 
-label{
-  font-style: oblique;
-  font-weight: bold;
-  
+#palabras {
+  color: white;
+  margin-bottom: 10px;
 }
 
-input{
-  margin: 10px;
-  padding-top: 5px;
-  padding-bottom: 10px;
-  background-color: rgba(240, 248, 255, 0);
+#formulario {
+  width: 50%;
+  height: 70%;
+  /*border: solid 1px black;  */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#params {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  background-color: transparent;
+  width: 90%;
+  padding: 15px;
   border: none;
-  border-bottom: 2px solid rgb(92, 71, 71);
+  border-bottom: white 2px solid;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  font-size: 24px;
+
 }
 
-input:hover{
-  border: 0;
-}
-
-.btn1{
-  background-color: white;
-  color: black;
-  width: auto;
-}
-
-.btn2{
-  background-color: white;
-  color: black;
+#icon {
   height: 30px;
-  border-radius: 5%;
-  text-align: center;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  width: max-content;
 }
 
-.btn1:hover{
-  background-color: #4CAF50;
-  color: white;
-  border: 2px solid white;
-  margin-bottom: 10px;
-  width: auto;
+#btn1 {
+  width: 90%;
+  height: 15%;
+  border-radius: 25px;
+  font-size: larger;
+  align-self: center;
+  background: rgb(13, 7, 195);
+  background: linear-gradient(24deg, rgba(13, 7, 195, 1) 0%, rgba(4, 165, 231, 1) 78%, rgba(15, 99, 89, 1) 99%);
+  transition: 0.5s ease-in-out;
 }
 
-.btn2:hover{
-  background-color: #142dbd;
-  color: white;
-  border: 2px solid white;
-  margin-bottom: 10px;
+#btn1:hover {
+  background: rgb(13, 7, 195);
+  transform: translateY(-5px);
+}
+
+
+#parr_reg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
