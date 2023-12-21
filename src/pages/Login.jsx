@@ -52,7 +52,6 @@ export const Login = () => {
   };
 
   return (
-    <div>
       <form onSubmit={handleSubmit} id="app">
         <div id="box">
           <div id="frase">
@@ -101,7 +100,6 @@ export const Login = () => {
           </div>
         </div>
       </form>
-    </div>
   );
 };
 
