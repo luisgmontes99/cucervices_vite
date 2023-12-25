@@ -21,6 +21,12 @@ html {
     justify-content: center;
 }
 
+#logo-r{
+    height: 60%;
+    width: 30%;
+    margin-right: 50px;
+  }
+
 #box2 {
     background-color: #01021C;
     width: 60%;

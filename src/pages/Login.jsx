@@ -5,6 +5,7 @@ import axios from "axios";
 import { DataLog } from "../modulos/DataLog";
 import Cookies from "js-cookie";
 import { Icon } from '@iconify/react';
+import Logo from '../images/logo4.png';
 
 export const Login = () => {
   sessionStorage.clear();
@@ -53,6 +54,11 @@ export const Login = () => {
 
   return (
       <form onSubmit={handleSubmit} id="app">
+        <img
+          id="logo-l"
+          src={Logo}
+          alt="Logo"
+        />
         <div id="box">
           <div id="frase">
             <h1 id="palabras">BIENVENIDO A CUCERVICES</h1>

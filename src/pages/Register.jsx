@@ -4,6 +4,7 @@ import { DataReg } from "../modulos/DataReg";
 import axios from "axios";
 import { Icon } from "@iconify/react";
 import "../styles/Register.css";
+import Logo from '../images/logo4.png';
 
 const Register = () => {
   const [data, setData] = useState({
@@ -40,6 +41,11 @@ const Register = () => {
 
   return (
     <div id="app">
+      <img
+          id="logo-r"
+          src={Logo}
+          alt="Logo"
+        />
       <div id="box2">
         <div id="formulario2">
           <form onSubmit={handleSubmit} id="form">

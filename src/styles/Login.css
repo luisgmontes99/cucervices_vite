@@ -4,6 +4,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Barlow', sans-serif;
 }
 
 @keyframes deslizar_der {
@@ -34,6 +35,12 @@ html {
   flex-direction: row;
   align-items: center;
   animation: deslizar_der 1s;
+}
+
+#logo-l{
+  height: 60%;
+  width: 30%;
+  margin-right: 50px;
 }
 
 #frase {
