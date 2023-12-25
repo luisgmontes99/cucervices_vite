@@ -1,6 +1,7 @@
 body{
     height: 100%;
     width: 100%;
+    font-family: 'Barlow', sans-serif;
 }
 #root{  
     height: 100%;
@@ -23,7 +24,8 @@ body{
 }
 
 #logo-i{
-    height: 90%;
+    margin-top: 20px;
+    height: 75%;
     width: 30%;
 }
 

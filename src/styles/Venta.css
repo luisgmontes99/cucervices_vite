@@ -38,7 +38,7 @@ body{
 #elemento{
     margin: 5px;
     width: 100%;
-    font-size: 20px;
+    font-size: 100px;
     transition: font-weight 0.3s;
 }
 
