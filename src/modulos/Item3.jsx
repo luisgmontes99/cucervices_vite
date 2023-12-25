@@ -1,11 +1,16 @@
 import { Link } from "react-router-dom";
 import "../styles/Item3.css";
+import Logo from '../images/logo3-1.png';
 
 export const Item3 = () => {
   return (
     <div id="contenedor">
       <div id="encabezado">
-        <h3>ENCABEZADO</h3>
+        <img
+            id="logo-i"
+            src={Logo}
+            alt="Logo"
+        />
       </div>
       <div id="barra_lateral">
         <ul>

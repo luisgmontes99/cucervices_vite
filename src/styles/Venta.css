@@ -22,6 +22,11 @@ body{
     justify-content: center;
 }
 
+#logo-v{
+    height: 100%;
+    width: 20%;
+}
+
 #barra_lateral{
     grid-row-start: span 9;
     border: 1px solid white;

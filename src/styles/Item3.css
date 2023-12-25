@@ -18,7 +18,13 @@ body{
 #encabezado{
     grid-column-start: span 5;
     border: 1px solid white;
-    
+    display: flex;
+    justify-content: center;
+}
+
+#logo-i{
+    height: 90%;
+    width: 30%;
 }
 
 #barra_lateral{

@@ -1,11 +1,16 @@
 import { Link } from "react-router-dom";
 import "../styles/Venta.css";
+import Logo from '../images/logo3-1.png';
 
 export const Venta = () => {
   return (
     <div id="contenedor">
       <div id="encabezado">
-        <h3>ENCABEZADO</h3>
+        <img
+            id="logo-v"
+            src={Logo}
+            alt="Logo"
+        />
       </div>
       <div id="barra_lateral">
         <ul>
