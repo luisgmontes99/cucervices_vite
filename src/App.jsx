@@ -25,7 +25,7 @@ function App() {
         <Route exact path="/cliente" element={<Ventas />} />
         <Route exact path="/cliente/verificado" element={<Verificador />} />
         <Route exact path="/cliente/crear" element={<Publicar />} />
-        <Route exact path="*" element={<Venta />} />
+        <Route exact path="*" element={<Login />} />
         <Route exact path="/hola" element={<Item3 />} />
       </Routes>
     </BrowserRouter>
