@@ -1,22 +1,18 @@
 FROM node:18 as BUILD_IMAGE
 
-WORKDIR /app/react-app
+WORKDIR /app
 
 COPY package.json .
 
-RUN npm install
-
 COPY . .
 
-RUN npm run build
+RUN npm install && npm run build
 
 FROM node:18 as PRODUCTION_IMAGE
 
-WORKDIR /app/react-app
+WORKDIR /app
 
-COPY --from=BUILD_IMAGE /app/react-app/dist/ /app/react-app/dist/
-
-EXPOSE 3000
+COPY --from=BUILD_IMAGE /app/dist/ /app/dist/
 
 COPY package.json .
 
@@ -24,6 +20,6 @@ COPY vite.config.js .
 
 RUN npm install typescript
 
-EXPOSE 8080
+EXPOSE 3000
 
 CMD ["npm", "run", "preview"]
